@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Ignite - Real, Relevant, Learning</title>
+        <link rel="shortcut icon" href="favicon.ico" />
+        <link rel="apple-touch-icon" href="img/apple-touch-iphone.png" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/footer.css">
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span> 
+                    </button>
+                    <a class="navbar-brand" href="#">
+                        <img src="img/logo.png" alt="Ignite Logo" />
+                    </a>
+                </div>
+                <div id="navbar" class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="active"><a href="#welcome">Welcome</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#strands">Strands</a></li>
+                        <li><a href="#quotes">Quotes</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <header id="welcome" class="container-fluid">
+            <div class="background">
+                <!-- ######## Uncomment this to use a video instead ########
+                <video loop muted autoplay>
+                    <source src="video/welcome-background.mp4" type="video/mp4" />
+                </video>
+                -->
+            </div>
+            <div class="jumbotron text-center">
+                <h1>Welcome to Ignite!</h1>
+                <span class="h3">We think education should be involved with the community.</span>
+                <hr />
+                <a href="#about" class="btn btn-primary btn-lg">Learn More</a>
+            </div>
+        </header>
+
+        <section id="about">
+            <div class="container text-center">
+                <h1>What is Ignite?</h1>
+                <div class="row text-left">
+                    <div class="col-md-4">
+                        <p>
+                            Bentonville Public Schools developed the Ignite Professional
+                            Studies program to provide students with real, relevant
+                            learning experiences in collaboration with regional
+                            businesses, non-profits, and industry professionals. The time
+                            is now to address a critical component in education -
+                            providing students post-secondary options aligned to their
+                            passions and strengths.
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <p>
+                            Ignite is out to change the conversation about preparing
+                            students for the opportunities in our community and
+                            beyond. Today’s workforce, whether in a professional skilled
+                            trade, startup, or Fortune 500 company requires STEM and
+                            professional, business, and finance skills. Ignite career strands
+                            are designed to align with future opportunities in the
+                            community.
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <p>
+                            Students in Ignite strands build meaningful relationships
+                            with mentors in business, industry, and higher education, not
+                            only to learn a profession, but also to gain valuable
+                            professional skills and entrepreneurial habits of mind
+                            necessary for careers in an innovation-based economy.
+                        </p>
+                        <p>
+                            Are you ready to ignite passion in students?
+                        </p>
+                    </div>
+                </div>
+                <i class="fa fa-unlock" aria-hidden="true"></i>
+                <i class="fa fa-heart" aria-hidden="true"></i>
+                <i class="fa fa-trophy" aria-hidden="true"></i>
+            </div>
+        </section>
+
+        <section id="strands">
+            <div class="container">
+                <h1>Strands</h1>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="strand" data-toggle="modal" data-target="#modalComputer">
+                            <span class="icon"><img src="img/strand icons/ComputerScienceIcon.png" alt="" /></span>
+                            <span>Computer + Information Technology</span>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="strand" data-toggle="modal" data-target="#modalMedical">
+                            <span>Medical + Health Sciences</span>
+                            <span class="icon"><img src="img/strand icons/MedicalIcon.png" alt="" /></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="strand" data-toggle="modal" data-target="#modalConstruction">
+                            <span class="icon"><img src="img/strand icons/ConstructionIcon.png" alt="" /></span>
+                            <span>Construction Professions + Management</span>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="strand" data-toggle="modal" data-target="#modalArts">
+                            <span>Creative Arts + Production</span>
+                            <span class="icon"><img src="img/strand icons/CreativeArtsIcon.png" alt="" /></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="strand" data-toggle="modal" data-target="#modalEducation">
+                            <span class="icon"><img src="img/strand icons/HumanServicesIcon.png" alt="" /></span>
+                            <span>Education Innovation + Teaching <small>Coming&nbsp;2017!</small></span>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="strand" style="cursor: default">
+                            <span>Culinary Arts + Hospitality <small>Coming&nbsp;2017!</small></span>
+                            <span class="icon"><img src="img/strand icons/CulinaryArtsIcon.png" alt="" /></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="strand" data-toggle="modal" data-target="#modalEducation">
+                            <span class="icon"><img src="img/strand icons/LogisticsandTransortationIcon.png" alt="" /></span>
+                            <span>Global Business + Networking <small>Coming&nbsp;2017!</small></span>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="strand" style="cursor: default">
+                            <span>Retail Support + Finance <small>Coming&nbsp;2017!</small></span>
+                            <span class="icon"><img src="img/strand icons/BusinessMarketingFinanceIcon.png" alt="" /></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div id="modals">
+            <article id="modalComputer" class="modal fade" role="document">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h2 class="modal-title">Computer + Information Technology</h2>
+                        </div>
+                        <div class="modal-body">
+                            <p>Do you love working with <b>computers</b>? Love solving problems and creating solutions using technology? Are you <b>curious</b> about computer coding and the <b>science, technology, engineering, and art</b> behind creating and presenting computer programs, websites or mobile apps to customers? Then the Computer Science and Information Technology strand of the Ignite program is for you!</p>
+                            <p>Bentonville Public Schools will offer a course within the <strong>Ignite Progressional Studies Program</strong> that immerse students in <b>real, relevant work in Computer Coding and Design</b>. This innovative program meets at the TCS building in Bentonville. Students in the program will gain valuable <b>hands-on experience</b> in the skills and habits of mind necessary for careers and continued education in computer coding, mobile apps development, software development, and website administration. This course is facilitated by a professional IT director and internships are offered at local companies. Students in the program earn <b>certifications</b> from U of A and <b>college credit</b> from NWACC.</p>
+                            <p>Computer Technology is a high-demand, high-wage, high-skilled career in Northwest Arkansas. Employers are looking for students prepared in information technology who have the professional skills and entrepreneurial mindset developed in <strong>Ignite Professional Study</strong> programs.</p>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <article id="modalMedical" class="modal fade" role="document">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h2 class="modal-title">Medical + Health Sciences</h2>
+                        </div>
+                        <div class="modal-body">
+                            <p>Do you have a passion for helping <b>others</b>? Love solving problems and creating solutions using medical knowledge? Are you <b>curious</b> about medicine and the <b>science, technology, engineering, and art</b> behind creating and presenting medical solutions to issues individuals encounter? Then the Medical and Health Professions strand of the Ignite program is for you!</p>
+                            <p>Bentonville Public Schools will offer a course within the <strong>Ignite Professional Studies</strong> program that immerse students in <b>real, relevant work in Medicine and Health Sciences</b>. This innovative program meets off campus in medical facilities. Students in the program will gain valuable <b>hands-on experience</b> in the skills and habits of mind necessary for careers and continued education in healthcare, including nursing, emergency care, physical therapy, and research. This course is facilitated by a professional healthcare provider and internships are offered at local clinics and hospitals. Students in the program can earn <b>certifications</b> and <b>college credit</b> from NWACC.</p>
+                            <p>Healthcare professions are in high demand in Northwest Arkansas. Employers are looking for students prepared in health and medicine who have the professional skills developed in <strong>Ignite Professional Study</strong> programs.</p>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <article id="modalConstruction" class="modal fade" role="document">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h2 class="modal-title">Construction Professions + Management</h2>
+                        </div>
+                        <div class="modal-body">
+                            <p>Do you have a passion for creating and designing hands-on projects? Love using your talents to help others? Are you <b>curious</b> about construction design and the <b>science, technology, engineering, and art</b> behind presenting and producing dream projects to clients? Then the Construction Professions strand of the Ignite program is for you!</p>
+                            <p>Bentonville Public Schools will offer a course within the <strong>Ignite Professional Studies</strong> program that immerse students in <b>real, relevant work in Construction Professions</b>. This innovative program meets off campus in a construction lab. Students in the program will gain valuable <b>hands-on experience</b> in the skills and habits of mind necessary for careers and continued education in basic construction and architectural design. This course is facilitated by a licensed building contractor and internships are offered at local building sites. Students in the program can earn <b>certifications</b> and <b>college credit</b> from NWACC.</p>
+                            <p>Construction professions are in high demand in Northwest Arkansas. Employers are looking for students prepared in all phases of construction who have the professional skills developed in <strong>Ignite Professional Study</strong> programs.</p>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <article id="modalArts" class="modal fade" role="document">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h2 class="modal-title">Creative Arts + Production</h2>
+                        </div>
+                        <div class="modal-body">
+                            <p>Do you have a passion for creating and designing digital media projects? Love using your talents to inspire others? Are you <b>curious</b> about creative art design and the <b>science, technology, engineering, and art</b> behind presenting and producing dream projects to clients? Then the Creative Arts and Production strand of the Ignite program is for you!</p>
+                            <p>Bentonville Public Schools will offer a course within the <strong>Ignite Professional Studies</strong> program that immerse students in <b>real, relevant work in Creative Arts and Production</b>. This innovative program meets off campus in a digital media lab. Students in the program will gain valuable <b>hands-on experience</b> in the skills and habits of mind necessary for careers and continued education in digital media design. This course in facilitated by an experienced video production engineer and internships are offered at regional companies. Students in the program can earn <b>certifications</b> and <b>college credit.</b></p>
+                            <p>Creative Arts and Production careers are in high demand in Northwest Arkansas. Employers are looking for students prepared in all phases of digital media design who have the professional skills developed in <strong>Ignite Professional Study</strong> programs.</p>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </div>
+
+        <section id="quotes">
+            <div class="container">
+                <h1>See What People Have Said</h1>
+                <div class="row">
+                    <div class="col-md-offset-2 col-md-8 text-center">
+                        <div id="quotesCarousel" class="carousel slide" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                                <li data-target="#quotesCarousel" data-slide-to="0" class="active"></li>
+                                <li data-target="#quotesCarousel" data-slide-to="1"></li>
+                                <li data-target="#quotesCarousel" data-slide-to="2"></li>
+                                <li data-target="#quotesCarousel" data-slide-to="3"></li>
+                            </ol>
+                            <div class="carousel-inner">
+                                <div class="item active">
+                                    <blockquote>
+                                        <q>Be who you are and say what you feel, because those who mind don’t matter and those who matter don’t mind.</q>
+                                        <cite>Dr. Seuss</cite>
+                                    </blockquote>
+                                </div>
+                                <div class="item">
+                                    <blockquote>
+                                        <q>This is the coolest website ever.</q>
+                                        <cite>Anonymous</cite>
+                                    </blockquote>
+                                </div>
+                                <div class="item">
+                                    <blockquote>
+                                        <q>I took a deep breath and listened to the old bray of my heart. I am. I am. I am.</q>
+                                        <cite>Sylvia Plath</cite>
+                                    </blockquote>
+                                </div>
+                                <div class="item">
+                                    <blockquote>
+                                        <q>Be there for others, but never leave yourself behind.</q>
+                                        <cite>Dodinsky</cite>
+                                    </blockquote>
+                                </div>
+                            </div>
+                            <a class="left carousel-control" href="#quotesCarousel" role="button" data-slide="prev">
+                                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="right carousel-control" href="#quotesCarousel" role="button" data-slide="next">
+                                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="partners">
+                    <img title="Adair Creative" alt="Partner Logo" src="img/partner logos/adair creative.svg" />
+                    <img title="Avad3" alt="Partner Logo" src="img/partner logos/avad3.png" />
+                    <img title="Bentonville Chamber of Commerce" alt="Partner Logo" src="img/partner logos/bentonville chamber of commerce.png" />
+                    <img title="BigBee Enterprises" alt="Partner Logo" src="img/partner logos/bigbee enterprises.png" />
+                    <img title="Circle of Life Hospice" alt="Partner Logo" src="img/partner logos/circle of life hospice.png" />
+                    <img title="City of Bentonville, Fire Department" alt="Partner Logo" src="img/partner logos/city of bentonville, fire department.png" />
+                    <img title="Compucom" alt="Partner Logo" src="img/partner logos/compucom.png" />
+                    <img title="Daisy BB" alt="Partner Logo" src="img/partner logos/daisybb.png" />
+                    <img title="Flintco Construction" alt="Partner Logo" src="img/partner logos/flintco construction.png" />
+                    <img title="Gravette School District" alt="Partner Logo" src="img/partner logos/gravette school district.png" />
+                    <img title="Habitat for Humanity" alt="Partner Logo" src="img/partner logos/habitat for humanity.png" />
+                    <img title="Harrison French & Associates" alt="Partner Logo" src="img/partner logos/harrison french and associates.jpg" />
+                    <img title="Huntsville School District" alt="Partner Logo" src="img/partner logos/huntsville school district.png" />
+                    <img title="JB Hunt" alt="Partner Logo" src="img/partner logos/jb hunt.png" />
+                    <img title="KNWA" alt="Partner Logo" src="img/partner logos/knwa.png" />
+                    <img title="Kyle Johnson Psychiatry" alt="Partner Logo" src="img/partner logos/kyle johnson psychiatry.png" />
+                    <img title="Mariah Althoff Visual Branding" alt="Partner Logo" src="img/partner logos/mariah althoff visual branding.png" />
+                    <img title="Mercy Health System" alt="Partner Logo" src="img/partner logos/mercy health system.png" />
+                    <img title="Nabholz Construction" alt="Partner Logo" src="img/partner logos/nabholz construction.png" />
+                    <img title="Northwest Medical Center" alt="Partner Logo" src="img/partner logos/northwest medical center.jpg" />
+                    <img title="NWA Economic Council" alt="Partner Logo" src="img/partner logos/nwa economic council.png" />
+                    <img title="NWA Homebuilders Association" alt="Partner Logo" src="img/partner logos/nwa homebuilders association.png" />
+                    <img title="NWA Lacrosse" alt="Partner Logo" src="img/partner logos/nwa lacrosse.png" />
+                    <img title="NWA Tech Council" alt="Partner Logo" src="img/partner logos/nwa tech council.png" />
+                    <img title="NWACC" alt="Partner Logo" src="img/partner logos/nwacc.png" />
+                    <img title="Ozark Guidance" alt="Partner Logo" src="img/partner logos/ozark guidance.png" />
+                    <img title="Ozark STEM" alt="Partner Logo" src="img/partner logos/ozark stem.png" />
+                    <img title="Pinnacle Radiology" alt="Partner Logo" src="img/partner logos/pinnacle radiology.png" />
+                    <img title="Premier Dermatology" alt="Partner Logo" src="img/partner logos/premier dermatology.png" />
+                    <img title="Premiere Physical Therapy" alt="Partner Logo" src="img/partner logos/premiere physical therapy.png" />
+                    <img title="Riggs and Associates" alt="Partner Logo" src="img/partner logos/riggs and associates.png" />
+                    <img title="Robert Adair Dentistry" alt="Partner Logo" src="img/partner logos/robert adair dentistry.png" />
+                    <img title="Rockfish" alt="Partner Logo" src="img/partner logos/rockfish.png" />
+                    <img title="Sam's Club" alt="Partner Logo" src="img/partner logos/sams club.png" />
+                    <img title="Sharing and Caring" alt="Partner Logo" src="img/partner logos/sharing and caring.png" />
+                    <img title="Startup Junkie" alt="Partner Logo" src="img/partner logos/startup junkie.png" />
+                    <img title="Tata Consulting Services" alt="Partner Logo" src="img/partner logos/tata consulting services.png" />
+                    <img title="Triad Retail" alt="Partner Logo" src="img/partner logos/triad retail.png" />
+                    <img title="University of Arkansas Global Campus" alt="Partner Logo" src="img/partner logos/university of arkansas global campus.png" />
+                    <img title="University of Arkansas TV" alt="Partner Logo" src="img/partner logos/university of arkansas tv.png" />
+                    <img title="Vista Productions" alt="Partner Logo" src="img/partner logos/vista productions.png" />
+                    <img title="Walmart" alt="Partner Logo" src="img/partner logos/walmart.png" />
+                    <img title="Walton Dental" alt="Partner Logo" src="img/partner logos/walton dental.png" />
+                    <img title="Walton Family Foundation" alt="Partner Logo" src="img/partner logos/walton family foundation.png" />
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="container">
+                <h1>Contact Us</h1>
+                <form id="contact-form" method="POST" action="mail.asp">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="form-group">
+                                <label for="name" class="form-control-label">Name: *</label>
+                                <input type="text" name="name" id="name" required class="form-control" />
+                            </div>
+                            <div class="form-group">
+                                <label for="email" class="form-control-label">Email: *</label>
+                                <input type="email" name="email" id="email" required class="form-control" />
+                            </div>
+                            <div class="form-group">
+                                <label for="phone" class="form-control-label">Phone:</label>
+                                <input type="tel" name="phone" id="phone" class="form-control" />
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="message" class="form-control-label">Message:</label>
+                                <textarea name="message" id="message" class="form-control"></textarea>
+                                <input type="submit" class="btn btn-primary form-control" />
+                            </div>
+                        </div>
+                        <div class="col-md-3 hidden-xs hidden-sm">
+                            <span class="h3">You could tell us about</span>
+                            <ul>
+                                <li>Project Ideas</li>
+                                <li>A guest speaker</li>
+                                <li>Feedback</li>
+                                <li>Donations</li>
+                            </ul>
+                        </div>
+                    </div>
+                </form>
+                <div class="row staff">
+                    <div class="col-md-2 col-xs-6 text-center">
+                        <a tabindex="0" role="button" data-toggle="popover"
+                           title="John Smith" data-content="Computer Science Instructor">
+                            <i class="fa fa-user circle computer" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                    <div class="col-md-2 col-xs-6 text-center">
+                        <a tabindex="0" role="button" data-toggle="popover"
+                           title="John Smith" data-content="Computer Science Instructor">
+                            <i class="fa fa-user circle construction" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                    <div class="col-md-2 col-xs-6 text-center">
+                        <a tabindex="0" role="button" data-toggle="popover"
+                           title="John Smith" data-content="Computer Science Instructor">
+                            <i class="fa fa-user circle medical" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                    <div class="col-md-2 col-xs-6 text-center">
+                        <a tabindex="0" role="button" data-toggle="popover"
+                           title="John Smith" data-content="Computer Science Instructor">
+                            <i class="fa fa-user circle arts" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                    <div class="col-md-2 col-xs-6 text-center">
+                        <a tabindex="0" role="button" data-toggle="popover"
+                           title="John Smith" data-content="Computer Science Instructor">
+                            <i class="fa fa-user circle culinary" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                    <div class="col-md-2 col-xs-6 text-center">
+                        <a tabindex="0" role="button" data-toggle="popover"
+                           title="John Smith" data-content="Computer Science Instructor">
+                            <i class="fa fa-user circle medical" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="footer-left">
+                <h3><img src="img/black-logo.png" alt="Logo" /></h3>
+                <p class="footer-links">
+                    <a href="#welcome">Welcome</a> ·
+                    <a href="#about">About</a> ·
+                    <a href="#strands">Strands</a> ·
+                    <a href="#quotes">Quotes</a> ·
+                    <a href="#contact">Contact</a>
+                </p>
+                <p class="footer-company-name">Ignite PSC &copy; 2016</p>
+            </div>
+            <div class="footer-center">
+                <div>
+                    <div>
+                        <i class="fa fa-map-marker"></i>
+                        <p><span>500 Tiger Blvd.</span> Bentonville, AR</p>
+                    </div>
+                    <div>
+                        <i class="fa fa-phone"></i>
+                        <p>479-418-7359</p>
+                    </div>
+                    <div>
+                        <i class="fa fa-envelope"></i>
+                        <p><a href="mailto:thudson@bentonvillek12.org">thudson@bentonvillek12.org</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-right">
+                <p class="footer-company-about">
+                    <a href="http://yourcapsnetwork.org/"><img src="img/caps-network.jpg" alt="CAPS Logo"/></a>
+                </p>
+                <div class="footer-icons">
+                    <a href="https://twitter.com/ignitepsc"><i class="fa fa-twitter"></i></a>
+                    <a href="https://www.linkedin.com/in/teresa-hudson-2b0749b6"><i class="fa fa-linkedin"></i></a>
+                </div>
+            </div>
+        </footer>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+        <script src="js/endless_scroll_min.js"></script>
+        <script src="js/jquery-ui.min.js"></script>
+        <script src="js/scrolling.js"></script>
+        <script src="js/contact.js"></script>
+        <script>
+            $(function () {
+                $('[data-toggle="popover"]').popover({
+                    placement: 'bottom',
+                    trigger: 'focus hover',
+                    html: true
+                });
+            });
+            $(window).on('load', function () {
+                $("#partners").endlessScroll({
+                    width: '100%',
+                    height: '95px',
+                    steps: -2,
+                    speed: 40,
+                    mousestop: true
+                });
+            });
+        </script>
+    </body>
+</html>

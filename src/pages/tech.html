@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html>
+    {{> head}}
+    <body>
+        {{> nav}}
+        <div style="margin-top: 20px">
+          
+        </div>
+        <center>
+        <div class="fotorama">
+        
+       
+      <img src="{{root}}{{ techimage.img1 }}" alt="Space">
+      
+      <img src="{{root}}{{ techimage.img2 }}" alt="Space">
+      
+      <img  src="{{root}}{{ techimage.img3 }}" alt="Space">
+      
+      <img  src="{{root}}{{ techimage.img4 }}" alt="Space">
+
+      <img src="{{root}}{{ techimage.img5 }}">
+      <img src="{{root}}{{ techimage.img6 }}">
+      
+
+        </div>
+        
+        </center>
+
+        <center>
+            <div>
+              <p style="width:50%; text-align: left;">{{ techimage.text }}</p>
+
+            </div>
+
+        </center>
+        {{> footer}}
+        {{> scripts}}
+    </body>
+</html>

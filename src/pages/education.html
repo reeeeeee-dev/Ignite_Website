@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    {{> head}}
+    <body>
+        {{> nav}}
+        <div style="margin-top: 50px">
+          
+        </div>
+        <center>
+        <div class="fotorama">
+        
+       
+      <img src="{{root}}{{ eduimage.img1 }}" alt="Space">
+      
+      <img src="{{root}}{{ eduimage.img2 }}" alt="Space">
+      
+      <img  src="{{root}}{{ eduimage.img3 }}" alt="Space">
+      
+      <img  src="{{root}}{{ eduimage.img4 }}" alt="Space">
+
+      <img src="{{root}}{{ eduimage.img5 }}">
+      <img src="{{root}}{{ eduimage.img6 }}">
+      
+
+        </div>
+        
+        </center>
+        <center>
+            <div>
+              <p style="width:50%; text-align: left;">{{ eduimage.text }}</p>
+
+            </div>
+
+        </center>
+        {{>footer}}
+        {{> scripts}}
+    </body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    {{> head}}
+    <body>
+        {{> nav}}
+        
+        <center>
+        <div class="fotorama">
+        
+       
+      <img src="{{root}}{{ busimage.img1 }}" alt="Space">
+      
+      <img src="{{root}}{{ busimage.img2 }}" alt="Space">
+      
+      <img  src="{{root}}{{ busimage.img3 }}" alt="Space">
+      
+      <img  src="{{root}}{{ busimage.img4 }}" alt="Space">
+
+      <img src="{{root}}{{ busimage.img5 }}">
+      <img src="{{root}}{{ busimage.img6 }}">
+      
+
+        </div>
+        
+        </center>
+        <center>
+            <div>
+              <p style="width:50%; text-align: left;">{{ busimage.text }}</p>
+
+            </div>
+
+        </center>
+        {{footer}}
+        {{> scripts}}
+    </body>
+</html>

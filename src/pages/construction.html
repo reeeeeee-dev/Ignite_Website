@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    {{> head}}
+    <body>
+        {{> nav}}
+        <div style="margin-top: 50px">
+          
+        </div>
+        <center>
+        <div class="fotorama">
+        
+       
+      <img src="{{root}}{{ constimage.img1 }}" alt="Space">
+      
+      <img src="{{root}}{{ constimage.img2 }}" alt="Space">
+      
+      <img  src="{{root}}{{ constimage.img3 }}" alt="Space">
+      
+      <img  src="{{root}}{{ constimage.img4 }}" alt="Space">
+
+      <img src="{{root}}{{ constimage.img5 }}">
+      <img src="{{root}}{{ constimage.img6 }}">
+      
+
+        </div>
+        
+        </center>
+        <center>
+            <div>
+              <p style="width:50%; text-align: left;">{{ constimage.text }}</p>
+
+            </div>
+
+        </center>
+        {{>footer}}
+        {{> scripts}}
+    </body>
+</html>

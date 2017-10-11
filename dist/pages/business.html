@@ -1,0 +1,222 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foundation for Sites</title>
+    <link rel="stylesheet" href="../assets/css/app.css">
+</head>
+
+<body>
+
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <title>Ignite - Real, Relevant, Learning</title>
+        <link rel="shortcut icon" href="favicon.ico" />
+        <link rel="apple-touch-icon" href="img/apple-touch-iphone.png" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="../assets/css/footer.css">
+        <link rel="stylesheet" href="../assets/css/main.css">
+        <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css" />
+        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+        <link href="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span> 
+                                </button>
+                    <a class="navbar-brand" href="../index.html#">
+                        <img src="../assets/img/logo.png" alt="Ignite Logo" />
+                    </a>
+                </div>
+                <div id="navbar" class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="active"><a href="../index.html#welcome">Welcome</a></li>
+                        <li><a href="../index.html#about">About</a></li>
+                        <li><a href="../index.html#strands">Strands</a></li>
+                        <li><a href="../index.html#quotes">Quotes</a></li>
+                        <li><a href="../index.html#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <center>
+            <div class="fotorama">
+
+
+                <img src="../assets/img/business/global1.png" alt="Space">
+
+                <img src="../assets/img/business/global2.png" alt="Space">
+
+                <img src="../assets/img/business/global3.png" alt="Space">
+
+                <img src="../assets/img/business/global4.png" alt="Space">
+
+                <img src="../assets/img/business/global5.png" alt="Space">
+
+                <img src="../assets/img/business/global6.png" alt="Space">
+
+                <img src="../assets/img/business/global7.png" alt="Space">
+
+
+            </div>
+
+        </center>
+        <center>
+            <div>
+                <p style="width:50%; text-align: left;">Do you have a passion for selling others on your ideas? Love solving problems and creating resolutions using business solutions? Are you curious about logistics, data analytics, entrepreneurship, marketing and management and the decision
+                    making process behind designing and presenting opportunities on issues that affect consumers, businesses and the community? Then the Global Business and Networking strand of the Ignite program is for you!</p>
+
+            </div>
+
+        </center>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+        <script src="../assets/js/endless_scroll_min.js"></script>
+        <script src="../assets/js/jquery-ui.min.js"></script>
+        <script src="../assets/js/scrolling.js"></script>
+        <script src="../assets/js/contact.js"></script>
+        <script>
+            $(function() {
+                $('[data-toggle="popover"]').popover({
+                    placement: 'bottom',
+                    trigger: 'focus hover',
+                    html: true
+                });
+            });
+            $(window).on('load', function() {
+                $("#partners").endlessScroll({
+                    width: '100%',
+                    height: '95px',
+                    steps: -2,
+                    speed: 40,
+                    mousestop: true
+                });
+            });
+        </script>
+
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script>
+            var mq = window.matchMedia("(min-width: 768px)");
+
+            if (mq.matches) {
+                fotoramaDefaults = {
+                    width: '50%',
+                    maxwidth: '100%',
+                    maxheight: '80%',
+                    loop: 'true',
+                    autoplay: 'true',
+                    stopautoplayontouch: 'true',
+                    ratio: '16/9',
+                    nav: 'thumbs',
+                    thumbmargin: 20,
+                    allowfullscreen: true,
+                    thumbfit: 'contain',
+                    captions: 'true',
+                    keyboard: 'true',
+                    swipe: 'true',
+                    trackpad: 'true',
+                    thumbwidth: 100,
+                    thumbheight: 60
+                }
+            } else {
+                fotoramaDefaults = {
+                    width: '90%',
+                    maxwidth: '100%',
+                    maxheight: '80%',
+                    loop: 'true',
+                    autoplay: 'true',
+                    stopautoplayontouch: 'true',
+                    ratio: '16/9',
+                    nav: 'thumbs',
+                    thumbmargin: 20,
+                    allowfullscreen: true,
+                    thumbfit: 'contain',
+                    captions: 'true',
+                    keyboard: 'true',
+                    swipe: 'true',
+                    trackpad: 'true',
+                    thumbwidth: 100,
+                    thumbheight: 60
+                }
+            }
+        </script>
+        <script>
+            // media query event handler
+            if (matchMedia) {
+                var mq = window.matchMedia("(min-width: 768px)");
+                mq.addListener(WidthChange);
+                WidthChange(mq);
+            }
+
+            // media query change
+            function WidthChange(mq) {
+                if (mq.matches) {
+                    fotoramaDefaults = {
+                        width: '50%',
+                        maxwidth: '100%',
+                        maxheight: '80%',
+                        loop: 'true',
+                        autoplay: 'true',
+                        stopautoplayontouch: 'true',
+                        ratio: '16/9',
+                        nav: 'thumbs',
+                        thumbmargin: 20,
+                        allowfullscreen: true,
+                        thumbfit: 'contain',
+                        captions: 'true',
+                        keyboard: 'true',
+                        swipe: 'true',
+                        trackpad: 'true',
+                        thumbwidth: 100,
+                        thumbheight: 60
+                    }
+                } else {
+                    fotoramaDefaults = {
+                        width: '90%',
+                        maxwidth: '100%',
+                        maxheight: '80%',
+                        loop: 'true',
+                        autoplay: 'true',
+                        stopautoplayontouch: 'true',
+                        ratio: '16/9',
+                        nav: 'thumbs',
+                        thumbmargin: 20,
+                        allowfullscreen: true,
+                        thumbfit: 'contain',
+                        captions: 'true',
+                        keyboard: 'true',
+                        swipe: 'true',
+                        trackpad: 'true',
+                        thumbwidth: 100,
+                        thumbheight: 60
+                    }
+                }
+
+            }
+        </script>
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
+    </body>
+
+    </html>
+
+
+    <script src="../assets/js/app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,130 @@
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+        <script src="../assets/js/endless_scroll_min.js"></script>
+        <script src="../assets/js/jquery-ui.min.js"></script>
+        <script src="../assets/js/scrolling.js"></script>
+        <script src="../assets/js/contact.js"></script>
+        <script>
+            $(function () {
+                $('[data-toggle="popover"]').popover({
+                    placement: 'bottom',
+                    trigger: 'focus hover',
+                    html: true
+                });
+            });
+            $(window).on('load', function () {
+                $("#partners").endlessScroll({
+                    width: '100%',
+                    height: '95px',
+                    steps: -2,
+                    speed: 40,
+                    mousestop: true
+                });
+            });
+        </script>
+       
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+         <script>
+            
+             var mq = window.matchMedia("(min-width: 768px)");
+
+             if(mq.matches){
+                 fotoramaDefaults = {
+    width: '50%',
+    maxwidth: '100%',
+    maxheight: '80%',
+    loop: 'true',
+    autoplay: 'true',
+    stopautoplayontouch: 'true',
+    ratio: '16/9',
+    nav: 'thumbs',
+    thumbmargin: 20,
+    allowfullscreen: true,
+    thumbfit: 'contain',
+    captions: 'true',
+    keyboard: 'true',
+    swipe: 'true',
+    trackpad: 'true',
+    thumbwidth: 100,
+    thumbheight: 60
+  }} else {
+                    fotoramaDefaults = {
+    width: '90%',
+    maxwidth: '100%',
+    maxheight: '80%',
+    loop: 'true',
+    autoplay: 'true',
+    stopautoplayontouch: 'true',
+    ratio: '16/9',
+    nav: 'thumbs',
+    thumbmargin: 20,
+    allowfullscreen: true,
+    thumbfit: 'contain',
+    captions: 'true',
+    keyboard: 'true',
+    swipe: 'true',
+    trackpad: 'true',
+    thumbwidth: 100,
+    thumbheight: 60
+  }
+  }
+             
+           
+           
+            </script>
+            <script>
+                // media query event handler
+if (matchMedia) {
+  var mq = window.matchMedia("(min-width: 768px)");
+  mq.addListener(WidthChange);
+  WidthChange(mq);
+}
+
+// media query change
+function WidthChange(mq) {
+  if (mq.matches) {
+    fotoramaDefaults = {
+    width: '50%',
+    maxwidth: '100%',
+    maxheight: '80%',
+    loop: 'true',
+    autoplay: 'true',
+    stopautoplayontouch: 'true',
+    ratio: '16/9',
+    nav: 'thumbs',
+    thumbmargin: 20,
+    allowfullscreen: true,
+    thumbfit: 'contain',
+    captions: 'true',
+    keyboard: 'true',
+    swipe: 'true',
+    trackpad: 'true',
+    thumbwidth: 100,
+    thumbheight: 60
+  }
+  } else {fotoramaDefaults = {
+    width: '90%',
+    maxwidth: '100%',
+    maxheight: '80%',
+    loop: 'true',
+    autoplay: 'true',
+    stopautoplayontouch: 'true',
+    ratio: '16/9',
+    nav: 'thumbs',
+    thumbmargin: 20,
+    allowfullscreen: true,
+    thumbfit: 'contain',
+    captions: 'true',
+    keyboard: 'true',
+    swipe: 'true',
+    trackpad: 'true',
+    thumbwidth: 100,
+    thumbheight: 60
+  }
+  }
+
+}
+
+
+            </script>
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>

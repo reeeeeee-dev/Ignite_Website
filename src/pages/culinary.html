@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    {{> head}}
+    <body>
+        {{> nav}}
+        <div style="margin-top: 50px">
+          
+        </div>
+        <center>
+        <div class="fotorama">
+        
+       
+      <img src="{{root}}{{ culinimage.img1 }}" alt="Space">
+      
+      <img src="{{root}}{{ culinimage.img2 }}" alt="Space">
+      
+      <img  src="{{root}}{{ culinimage.img3 }}" alt="Space">
+      
+      <img  src="{{root}}{{ culinimage.img4 }}" alt="Space">
+
+      <img src="{{root}}{{ culinimage.img5 }}">
+      <img src="{{root}}{{ culinimage.img6 }}">
+      
+
+        </div>
+        
+        </center>
+        <center>
+            <div>
+              <p style="width:50%; text-align: left;">{{ culinimage.text }}</p>
+
+            </div>
+
+        </center>
+        {{>footer}}
+        {{> scripts}}
+    </body>
+</html>

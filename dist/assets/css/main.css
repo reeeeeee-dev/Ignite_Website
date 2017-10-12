@@ -177,7 +177,8 @@ section h6,
     min-height: 100%;
     -webkit-transform: translateY(-30%);
     -ms-transform: translateY(-30%);
-    transform: translateY(-30%)
+    transform: translateY(-30%);
+    filter: brightness(40%)
 }
 #welcome .jumbotron {
     color: white;
